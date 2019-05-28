@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="450dp"
+             android:layout_height="96dp"
+             android:background="#fff"
+             android:orientation="horizontal">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_name"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:gravity="center_vertical"
+                android:text="用户_adsda"
+                android:textColor="#FF333C4F"
+                android:textSize="24sp"/>
+
+
+            <TextView
+                android:id="@+id/tv_phone"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:gravity="center_vertical"
+                android:text="15921449923"
+                android:textColor="#FF333C4F"
+                android:textSize="20sp"/>
+
+
+        </LinearLayout>
+
+
+        <ImageView
+            android:src="@mipmap/ic_launcher"
+            android:layout_width="56dp"
+            android:layout_height="56dp"/>
+
+
+        <ImageView
+            android:id="@+id/iv_del"
+            android:src="@drawable/delete"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginStart="24dp"/>
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_gravity="bottom"
+        android:background="@color/colorAccent"/>
+</FrameLayout>

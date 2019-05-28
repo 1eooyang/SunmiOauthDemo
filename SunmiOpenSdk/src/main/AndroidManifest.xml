@@ -1,0 +1,15 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.sunmi.opensdk">
+
+    <application>
+
+        <activity android:name=".auth.SunmiAuthActivity"
+                  android:windowSoftInputMode="stateHidden|stateUnchanged"
+                  android:launchMode="singleTask"
+                  android:noHistory="true"
+                  android:exported="true"
+                  android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            />
+
+    </application>
+</manifest>
